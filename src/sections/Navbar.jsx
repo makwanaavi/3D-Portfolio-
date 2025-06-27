@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { motion } from "motion/react";
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
+import { motion } from "motion/react"
 
 function Navigation() {
   return (
@@ -32,11 +33,11 @@ const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
   return (
     <div className="fixed inset-x-0 full-with z-20 backdrop-blur-lg bg-primary/40">
-      <div className="mx-auto c-space max-x-7xl">
+      <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl font-bold transition-colors hover:text-white"
+            className="text-2xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
             AVI
           </a>
