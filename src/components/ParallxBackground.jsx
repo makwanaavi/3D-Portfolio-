@@ -52,7 +52,7 @@ const ParallxBackground = () => {
             backgroundSize: "cover",
              y : moutain2Y
           }}
-        />
+        /> 
 
         <motion.div
           className="absolute inset-0 -z-10"

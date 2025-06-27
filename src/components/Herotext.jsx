@@ -33,11 +33,11 @@ const Herotext = () => {
           >
             <FlipWords
               words={[
-                "Web Development",
-                "UI Design",
-                "Responsive Design",
-                "Scalable Solutions",
-                "User Experience",
+                "Development",
+                "Design",
+                "Responsive",
+                "Solutions",
+                "Experience",
               ]}
               className="font-black text-white font-medium text-8xl"
             />
@@ -65,17 +65,17 @@ const Herotext = () => {
 
           <FlipWords
             words={[
-              "Web Development",
-              "UI Design",
-              "Responsive Design",
-              "Scalable Solutions",
-              "User Experience",
+              "Development",
+              "Design",
+              "Responsive",
+              "Solutions",
+              "Experience",
             ]}
-            className="font-black text-white text-8xl"
+            className="font-black text-white text-7xl"
           />
 
           <motion.p className="text-5xl font-semibold text-neutral-300">
-            Web Applications
+            Your Vision, Our Design
           </motion.p>
         </motion.div>
       </div>
