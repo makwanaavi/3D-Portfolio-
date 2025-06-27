@@ -1,7 +1,9 @@
+import Navbar from "./sections/Navbar";
+
 function App() {
   return <>
-    <div>
-      <h2 className="text-red-400">App</h2>
+    <div className="container mx-auto max-x-7xl">
+      <Navbar/>
     </div>
   </>;
 }
