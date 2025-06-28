@@ -1,5 +1,8 @@
 import React, { useRef } from "react";
 import Card from "../components/Card";
+import { Globe } from "../components/Glob";
+import CopyEmailButton from "../components/CpoyEmailButton";
+import {Framework} from "../components/Framework";
 
 const About = () => {
   const grid2Container = useRef()
@@ -64,26 +67,55 @@ const About = () => {
             />
 
              <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              style={{ rotate: "30deg", top: "70%", left: "68%" }}
               image = 'assets/logos/csharp-pink.png'
                containerRef={grid2Container}
             />
              <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+              style={{ rotate: "-45deg", top: "71%", left: "24%" }}
               image = 'assets/logos/dotnet-pink.png'
                containerRef={grid2Container}
             />
 
               <Card
-              style={{ rotate: "45deg", top: "5%", left: "10%" }}
+              style={{ rotate: "45deg", top: "10%", left: "5%" }}
               image = 'assets/logos/blazor-pink.png'
                containerRef={grid2Container}
             />
           </div>
         </div>
-        <div className="grid-black-color grid-3"></div>
-        <div className="grid-special-color grid-4"></div>
-        <div className="grid-default-color grid-5"></div>
+
+        { /* Grid 3*/} 
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">TimeZone</p>
+            <p className="subtext">I'm based in Mars, and open to work worldwide</p>
+          </div>
+
+          <figure className="absolute left-[30%] top-[10%]">
+            <Globe/>
+          </figure>
+        </div>
+
+        {/* Grid 4*/}
+        <div className="grid-special-color grid-4">
+          <div className="flex flex-col items-center justify-center gap-4 size-full">
+            <p className="text-center headtext">Do you want start project together?</p>
+            <CopyEmailButton/>
+          </div>
+        </div>
+
+        {/*Grid 5*/}
+        <div className="grid-default-color grid-5">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Texh Stack</p>
+            <p className="subtext">I Specialize in a variety of languages, frameworksm and tools that allow me to build robust and scalable applications</p>
+
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Framework/>
+          </div>
+        </div>
       </div>
     </section>
   );
