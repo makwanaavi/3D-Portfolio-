@@ -1,6 +1,17 @@
+# 3D Portfolio
+
+This project is a modern portfolio website built with React and Vite, featuring interactive 3D elements to showcase your work, skills, and experience. It leverages the latest web technologies for fast performance and a smooth developer experience.
+
+## Features
+
+- Interactive 3D components for a visually engaging portfolio
+- Built with React and Vite for rapid development and hot module replacement
+- Easily customizable to fit your personal or professional branding
+- Integration with ESLint for code quality
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#d PortFolio
 
 Currently, two official plugins are available:
 
