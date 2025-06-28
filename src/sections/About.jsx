@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/Glob";
+import CopyEmailButton from "../components/CpoyEmailButton";
 
 const About = () => {
   const grid2Container = useRef()
@@ -82,6 +83,8 @@ const About = () => {
             />
           </div>
         </div>
+
+        { /* Grid 3*/} 
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">TimeZone</p>
@@ -92,7 +95,14 @@ const About = () => {
             <Globe/>
           </figure>
         </div>
-        <div className="grid-special-color grid-4"></div>
+
+        {/* Grid 4*/}
+        <div className="grid-special-color grid-4">
+          <div className="flex flex-col items-center justify-center gap-4 size-full">
+            <p className="text-center headtext">Do you want start project together?</p>
+            <CopyEmailButton/>
+          </div>
+        </div>
         <div className="grid-default-color grid-5"></div>
       </div>
     </section>
